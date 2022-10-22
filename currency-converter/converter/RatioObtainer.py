@@ -1,7 +1,6 @@
 import json, datetime, urllib.request, requests
 from os.path import exists
 
-
 class RatioObtainer:
     base = None
     target = None
@@ -84,6 +83,7 @@ class RatioObtainer:
                         i["data_fetched"] = today
                         i["ratio"] = ratio
                         saved = True
+                        outfile.seek(0)
                         json.dump(fetched_data, outfile, indent=1)
                         break
         
