@@ -1,0 +1,20 @@
+[
+ {
+  "base_currency": "USD",
+  "target_currency": "EUR",
+  "data_fetched": "2022-10-19",
+  "ratio": 1.0
+ },
+ {
+  "base_currency": "EUR",
+  "target_currency": "PLN",
+  "data_fetched": "2022-10-19",
+  "ratio": 4.787571
+ },
+ {
+  "base_currency": "PLN",
+  "target_currency": "EUR",
+  "data_fetched": "2022-10-19",
+  "ratio": 0.208874
+ }
+]
